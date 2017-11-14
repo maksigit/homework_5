@@ -21,7 +21,7 @@ class UserController extends Controller
         //var_dump($request->server->all());
         //var_dump($_SERVER);
         //exit;
-        return $this->render('MaksiCompanyMaksiBundle:Default:user.html.twig');
+        return $this->render('MaksiCompanyMaksiBundle:user:user.html.twig');
         //return new Response('foo');
     }
 

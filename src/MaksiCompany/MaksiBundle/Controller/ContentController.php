@@ -18,7 +18,7 @@ class ContentController extends Controller
     public function ContentAction(Request $request)
     {
 
-        return $this->render('MaksiCompanyMaksiBundle:Default:content.html.twig');
+        return $this->render('MaksiCompanyMaksiBundle:content:content.html.twig');
 
     }
 }

@@ -18,7 +18,7 @@ class BaseController extends Controller
     public function BaseAction(Request $request)
     {
 
-        return $this->render('MaksiCompanyMaksiBundle:Default:base.html.twig');
+        return $this->render('MaksiCompanyMaksiBundle:base:base.html.twig');
 
     }
 }
