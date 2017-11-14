@@ -8,17 +8,17 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class BaseController extends Controller
+class ContentController extends Controller
 {
 
     /**
-     * @Route("/base", name="primery")
+     * @Route("/content", name="content")
      * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function BaseAction(Request $request)
+    public function ContentAction(Request $request)
     {
 
-        return $this->render('MaksiCompanyMaksiBundle:Default:base.html.twig');
+        return $this->render('MaksiCompanyMaksiBundle:Default:content.html.twig');
 
     }
 }

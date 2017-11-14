@@ -11,14 +11,27 @@
 </head>
 <body>
 <head>
-    <ul class="nav nav-pills">
-        <li class="active"><a href="#">Главная</a></li>
-        <li><a href="#">Профиль</a></li>
-        <li><a href="#">Сообщение</a></li>
+    <ul class="nav nav-pills navbar-inverse" style="padding: 10px">
+        <li class="active"><a href="#">Menu1</a></li>
+        <li><a href="#">Menu2</a></li>
+        <li><a href="#">Menu3</a></li>
+        <li><a href="#">Menu4</a></li>
+        <li><a href="#">Menu5</a></li>
+
     </ul>
 </head>
-<main></main>
-<footer></footer>
+<main>
+    <section class="main-base" style="border: 2px solid #218BC3; width: 100%; min-height: 500px">
+        {% block content %}
+
+        {% endblock content %}
+    </section>
+</main>
+<footer>
+    <div class="navbar-inverse" style="padding: 10px">
+        <p style="color: white; margin: 0">&copy; Все права защищены Advanced PHP - 2017</p>
+    </div>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
