@@ -1,0 +1,4 @@
+maksi_company_maksi:
+    resource: "@MaksiCompanyMaksiBundle/Controller/"
+    type: annotation
+
