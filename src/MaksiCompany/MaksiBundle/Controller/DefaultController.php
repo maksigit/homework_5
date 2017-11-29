@@ -11,7 +11,10 @@ use MaksiCompany\MaksiBundle\Entity\Product;
 
 class DefaultController extends Controller
 {
-
+    /**
+     * @Route("/db", name="db")
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
     public function createAction()
     {
         // you can fetch the EntityManager via $this->getDoctrine()
