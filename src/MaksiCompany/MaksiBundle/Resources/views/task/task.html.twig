@@ -1,0 +1,14 @@
+{% extends '@MaksiCompanyMaksi/base/base.html.twig' %}
+
+        {% block content %}
+            <div class="posts">
+                <ul class="nav nav-pills navbar-inverse">
+                    <h1 class="task">TASK</h1>
+                    <div class="main-form">
+                        {{ form_start(form) }}
+                        {{ form_widget(form) }}
+                        {{ form_end(form) }}
+                    </div>
+                </ul>
+            </div>
+        {% endblock content %}
